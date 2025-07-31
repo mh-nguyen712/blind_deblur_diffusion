@@ -1,5 +1,24 @@
 ## How Diffusion Prior Landscapes Shape the Posterior in Blind Deconvolution <br><sub>Code for reproducing numerical experiments</sub>
 
+![Teaser image](./save/blurry_is_more_likely.png)
+<figure style="text-align: center;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <img src="./save/spectre_ffhqve.png" alt="FFHQ Spectre" style="height: 250px; object-fit: contain;">
+    <img src="./save/spectre_afhqve.png" alt="AFHQ Spectre" style="height: 250px; object-fit: contain;">
+  </div>
+  <figcaption style="margin-top: 8px; font-style: italic;">
+    Spectre visualizations from FFHQ (left) and AFHQ (right).
+  </figcaption>
+</figure>
+
+### Blind deblurring results on Kohler dataset
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="./save/kohler_deblurred.gif" alt="Deblurred image" style="height: 300px; object-fit: contain;">
+  <img src="./save/kohler_kernel.gif" alt="Estimated kernel" style="height: 200px; object-fit: contain;">
+</div>
+
+
+
 ## Requirements
 - `pytorch` (if you're using `cuda`, please make sure that your cuda runtime version matches your pytorch cuda verion, since the score model need to be compiled from cpp source)
 - `deepinv` (https://deepinv.github.io/deepinv/)
