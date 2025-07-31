@@ -13,6 +13,7 @@
 
 ### Blind deblurring results on Kohler dataset
 <div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="./save/kohler_blurred.png" alt="Blurred image" style="height: 300px; object-fit: contain;">
   <img src="./save/kohler_deblurred.gif" alt="Deblurred image" style="height: 300px; object-fit: contain;">
   <img src="./save/kohler_kernel.gif" alt="Estimated kernel" style="height: 200px; object-fit: contain;">
 </div>
